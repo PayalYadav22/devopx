@@ -1,6 +1,7 @@
+"use client";
+
 import Image from "next/image";
 import StarIcon from "@/assets/icons/star-icon.svg";
-import { Fragment } from "react";
 
 const words = [
   "HTML",

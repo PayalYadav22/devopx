@@ -1,3 +1,5 @@
+"use client";
+
 import Techolcon from "@/component/TechoIcon";
 import { twMerge } from "tailwind-merge";
 

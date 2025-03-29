@@ -1,3 +1,5 @@
+"use client";
+
 import grainImage from "@/assets/images/grain.jpg";
 import { PropsWithChildren } from "react";
 import { twMerge } from "tailwind-merge";

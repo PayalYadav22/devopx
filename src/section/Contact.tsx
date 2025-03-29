@@ -1,3 +1,5 @@
+"use client";
+
 import grainImage from "@/assets/images/grain.jpg";
 import Image from "next/image";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -16,11 +18,11 @@ const Contact = () => {
           <div className="flex flex-col gap-10 md:gap-0 lg:gap-0 md:flex-row justify-between items-center">
             <div>
               <h2 className="font-serif text-2xl md:text-3xl">
-                Let's create something amazing togather
+                Let&apos;s create something amazing together
               </h2>
               <p className="text-sm md:text-base mt-2">
-                Ready to bring your next project to life? Let's connect and
-                discuss how I can help you archieve your goal.
+                Ready to bring your next project to life? Let&apos;s connect and
+                discuss how I can help you achieve your goal.
               </p>
             </div>
             <div>

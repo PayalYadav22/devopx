@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 
 const Techolcon = ({
@@ -13,7 +15,7 @@ const Techolcon = ({
 }) => {
   return (
     <>
-      <Image src={src} alt={alt} width={w} height={w} />
+      <Image src={src} alt={alt} width={w} height={h} />
     </>
   );
 };

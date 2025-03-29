@@ -1,3 +1,5 @@
+"use client";
+
 import HeroOrbit from "@/component/HeroOrbit";
 import momojiImage from "@/assets/images/computer.png";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
@@ -12,10 +14,10 @@ const Banner = () => {
         className="absolute inset-0 -z-30 opacity-5"
         style={{ backgroundImage: `url(${grainImage.src})` }}
       ></div>
-      <div className=" size-[700px] hero-ring"></div>
-      <div className=" size-[920px] hero-ring"></div>
-      <div className=" size-[1120px] hero-ring"></div>
-      <div className=" size-[1320px] hero-ring"></div>
+      <div className="size-[700px] hero-ring"></div>
+      <div className="size-[920px] hero-ring"></div>
+      <div className="size-[1120px] hero-ring"></div>
+      <div className="size-[1320px] hero-ring"></div>
       <HeroOrbit
         size={600}
         rotate={-14}
@@ -227,7 +229,7 @@ const Banner = () => {
         <button className="inline-flex items-center gap-2 border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
           <span>👋</span>
           <span className="text-sm md:text-base lg:text-lg font-poppins font-semibold">
-            Let's Connect
+            <p>Let&apos;s Connect</p>
           </span>
         </button>
       </div>

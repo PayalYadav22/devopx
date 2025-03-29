@@ -1,3 +1,5 @@
+"use client";
+
 const Header = ({
   title,
   eyebrow,

@@ -1,5 +1,5 @@
-import StarIcon from "@/assets/icons/star.svg";
-import Image from "next/image";
+"use client";
+
 import { PropsWithChildren } from "react";
 import { twMerge } from "tailwind-merge";
 
