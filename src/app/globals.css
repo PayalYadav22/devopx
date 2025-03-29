@@ -1,26 +1,53 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme inline {
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-poppins: var(--font-poppins);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@layer base {
+  .container {
+    @apply lg:max-w-5xl;
+  }
+  .nav-item {
+    @apply px-3 py-1.5 rounded-full text-white/70 text-sm font-poppins font-medium capitalize hover:bg-white hover:text-gray-900 transition duration-300;
+  }
+  .nav-item.active {
+    @apply bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900;
+  }
+  .hero-ring {
+    @apply absolute inset-0 border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-emerald-300/5 shadow-[0_0_80px_inset] shadow-emerald-300/5;
+  }
+
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.1;
+      transform: scale(0.94);
+    }
+  }
+}
+
+@layer utilities {
+  .animate-pulse {
+    animation: pulse 10s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: ;
+    --foreground: ;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: ;
+    --foreground: ;
+  }
 }
