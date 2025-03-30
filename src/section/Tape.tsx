@@ -1,6 +1,10 @@
 "use client";
 
 import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+
 import StarIcon from "@/component/svgs/star-icon.svg";
 
 const words = [
@@ -33,21 +37,29 @@ const Tape = () => {
             "linear-gradient(to right, transparent, black 20%, black 90%, transparent)",
         }}
       >
-        <div
-          className="flex space-x-4 items-center whitespace-nowrap"
-          style={{
-            transform: "translateX(-750px)",
+        <Swiper
+          spaceBetween={0}
+          slidesPerView="auto"
+          loop={true}
+          autoplay={{
+            delay: 0,
+            disableOnInteraction: false,
+            reverseDirection: false,
           }}
+          speed={500}
+          modules={[Autoplay]}
         >
           {words.concat(words).map((word, index) => (
-            <div key={index} className="inline-flex items-center">
-              <span className="text-gray-900 font-extrabold text-sm">
-                {word}
-              </span>
-              <Image src={StarIcon} alt={word} className="h-6 w-6 mx-5" />
-            </div>
+            <SwiperSlide key={index} className="!w-auto">
+              <div className="inline-flex items-center px-4">
+                <span className="text-gray-900 font-extrabold text-sm">
+                  {word}
+                </span>
+                <Image src={StarIcon} alt={word} className="h-6 w-6 mx-5" />
+              </div>
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
       </div>
     </div>
   );

@@ -318,18 +318,18 @@ const Banner = () => {
         </div>
       </div>
       <div className="max-w-lg mx-auto">
-        <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-medium text-white text-center mt-8">
-          Building Exceptional User Experiences
+        <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-medium text-white text-center mt-6">
+          Crafting Engaging & Impactful Experiences
         </h1>
         <p className="mt-4 text-center text-white/60 text-sm md:text-base lg:text-lg font-poppins">
-          I specialize in creating seamless, engaging digital experiences that
-          captivate users and drive results.
+          I design intuitive, visually compelling digital experiences that
+          engage users and drive results.
         </p>
       </div>
 
       <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-        <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-          <span className="text-sm md:text-base lg:text-lg font-poppins font-medium">
+        <button className="group inline-flex items-center gap-2  border border-emerald-300 px-6 h-12 rounded-xl transition-all duration-300 transform hover:scale-110">
+          <span className="text-sm md:text-base lg:text-base font-poppins font-medium">
             Explore My Work
           </span>
           <div className="animate-bounce">
@@ -341,10 +341,10 @@ const Banner = () => {
             />
           </div>
         </button>
-        <button className="inline-flex items-center gap-2 border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
+        <button className="inline-flex items-center gap-2 border border-emerald-300 text-white h-12 px-6 rounded-xl transform transition-transform duration-300 ease-in-out hover:scale-110">
           <span>👋</span>
-          <span className="text-sm md:text-base lg:text-lg font-poppins font-semibold">
-            <p>Let&apos;s Connect</p>
+          <span className="text-sm md:text-base lg:text-base font-poppins">
+            Let&apos;s Connect
           </span>
         </button>
       </div>

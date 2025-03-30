@@ -18,7 +18,7 @@ const Projects = () => {
           title="Featured Projects"
           description="See how I transformed concepts into engaging digital experiances."
         ></Header>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 px-3 mt-10">
+        <div className=" swiper-item grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 px-3 mt-10">
           {portfolioProjects.map((project, i) => (
             <Card key={i} className="p-6">
               <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text ">
