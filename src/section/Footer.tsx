@@ -7,7 +7,7 @@ import { footerLinks } from "@/data/data";
 
 const Footer = () => {
   return (
-    <footer className="relative -z-10 overflow-x-clip lg:px-30">
+    <footer className="relative -z-10 overflow-x-clip px-3 lg:px-30">
       <div
         className="absolute h-[400px] w-[1600px] bottom-0 left-1/2 -translate-x-1/2 bg-emerald-300/30 -z-10"
         style={{

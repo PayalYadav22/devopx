@@ -62,6 +62,32 @@ export const portfolioProjects = [
     github_link: "https://github.com",
     image: aiStartupLandingPage,
   },
+  {
+    company: "Tech Solutions",
+    year: "2023",
+    title: "Light SaaS Landing Page",
+    achievements: [
+      { title: "Boosted conversion rates by 25%" },
+      { title: "Optimized accessibility and UI design" },
+      { title: "Decreased bounce rate by 20%" },
+    ],
+    link: "https://example.com",
+    github_link: "https://github.com",
+    image: lightSaasLandingPage,
+  },
+  {
+    company: "AI Innovations",
+    year: "2024",
+    title: "AI Startup Landing Page",
+    achievements: [
+      { title: "Integrated AI-powered chatbot" },
+      { title: "Increased engagement by 60%" },
+      { title: "Reduced load time by 50%" },
+    ],
+    link: "https://startup.ai",
+    github_link: "https://github.com",
+    image: aiStartupLandingPage,
+  },
 ];
 
 export const testimonials = [
@@ -149,19 +175,11 @@ export const hobbies = [
 
 export const footerLinks = [
   {
-    title: "YouTube",
-    href: "https://www.youtube.com/",
-  },
-  {
-    title: "Twitter",
-    href: "https://twitter.com/",
-  },
-  {
-    title: "Instagram",
-    href: "https://www.instagram.com/",
-  },
-  {
     title: "LinkedIn",
     href: "https://www.linkedin.com/",
+  },
+  {
+    title: "GitHub",
+    href: "https://www.github.com/",
   },
 ];
