@@ -9,17 +9,15 @@ import {
   Footer,
 } from "@/section";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
-      <Header />
       <Banner />
       <Projects />
       <Tape />
       <Testimonials />
       <About />
       <Contact />
-      <Footer />
     </>
   );
 }

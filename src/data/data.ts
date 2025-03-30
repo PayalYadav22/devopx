@@ -15,6 +15,13 @@ import ReactIcon from "@/component/svgs/react.svg";
 import Crome from "@/component/svgs/chrome.svg";
 import GithubIcon from "@/component/svgs/github.svg";
 
+export const navItem = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About Us" },
+  { href: "/projects", label: "Projects" },
+  { href: "/contact", label: "Contact Us" },
+];
+
 export const portfolioProjects = [
   {
     company: "Acme Corp",

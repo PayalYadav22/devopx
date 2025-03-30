@@ -18,25 +18,12 @@ const Banner = () => {
       <div className="size-[920px] hero-ring"></div>
       <div className="size-[1120px] hero-ring"></div>
       <div className="size-[1320px] hero-ring"></div>
+      {/* small ring */}
       <HeroOrbit
-        size={600}
+        size={550}
         rotate={-14}
         shouldOrbit
         orbitDuration="20s"
-        shouldSpin
-        spinDuration="5s"
-      >
-        <Image
-          src={StarIcon}
-          className="size-[90px]"
-          alt="Person peeking from behind a laptop"
-        />
-      </HeroOrbit>
-      <HeroOrbit
-        size={540}
-        rotate={-14}
-        shouldOrbit
-        orbitDuration="15s"
         shouldSpin
         spinDuration="5s"
       >
@@ -50,35 +37,7 @@ const Banner = () => {
         size={550}
         rotate={-14}
         shouldOrbit
-        orbitDuration="25s"
-        shouldSpin
-        spinDuration="5s"
-      >
-        <Image
-          src={StarIcon}
-          className="size-[70px]"
-          alt="Person peeking from behind a laptop"
-        />
-      </HeroOrbit>
-      <HeroOrbit
-        size={540}
-        rotate={-14}
-        shouldOrbit
-        orbitDuration="30s"
-        shouldSpin
-        spinDuration="3s"
-      >
-        <Image
-          src={StarIcon}
-          className="size-[40px]"
-          alt="Person peeking from behind a laptop"
-        />
-      </HeroOrbit>
-      <HeroOrbit
-        size={700}
-        rotate={-14}
-        shouldOrbit
-        orbitDuration="100s"
+        orbitDuration="80s"
         shouldSpin
         spinDuration="5s"
       >
@@ -89,119 +48,21 @@ const Banner = () => {
         />
       </HeroOrbit>
       <HeroOrbit
-        size={1000}
+        size={550}
         rotate={-14}
         shouldOrbit
-        orbitDuration="150s"
+        orbitDuration="15s"
         shouldSpin
         spinDuration="5s"
       >
         <Image
           src={StarIcon}
-          className="size-[90px]"
+          className="size-[80px]"
           alt="Person peeking from behind a laptop"
         />
       </HeroOrbit>
       <HeroOrbit
-        size={1000}
-        rotate={-14}
-        shouldOrbit
-        orbitDuration="160s"
-        shouldSpin
-        spinDuration="5s"
-      >
-        <Image
-          src={StarIcon}
-          className="size-[40px]"
-          alt="Person peeking from behind a laptop"
-        />
-      </HeroOrbit>
-      <HeroOrbit
-        size={1000}
-        rotate={-14}
-        shouldOrbit
-        orbitDuration="100s"
-        shouldSpin
-        spinDuration="5s"
-      >
-        <Image
-          src={StarIcon}
-          className="size-[60px]"
-          alt="Person peeking from behind a laptop"
-        />
-      </HeroOrbit>
-      <HeroOrbit
-        size={1020}
-        rotate={-14}
-        shouldOrbit
-        orbitDuration="50s"
-        shouldSpin
-        spinDuration="4s"
-      >
-        <Image
-          src={StarIcon}
-          className="size-[90px]"
-          alt="Person peeking from behind a laptop"
-        />
-      </HeroOrbit>
-      <HeroOrbit
-        size={980}
-        rotate={-14}
-        shouldOrbit
-        orbitDuration="60s"
-        shouldSpin
-        spinDuration="10s"
-      >
-        <Image
-          src={StarIcon}
-          className="size-[40px]"
-          alt="Person peeking from behind a laptop"
-        />
-      </HeroOrbit>
-      <HeroOrbit
-        size={985}
-        rotate={-14}
-        shouldOrbit
-        orbitDuration="100s"
-        shouldSpin
-        spinDuration="5s"
-      >
-        <Image
-          src={StarIcon}
-          className="size-[60px]"
-          alt="Person peeking from behind a laptop"
-        />
-      </HeroOrbit>
-      <HeroOrbit
-        size={680}
-        rotate={-14}
-        shouldOrbit
-        orbitDuration="100s"
-        shouldSpin
-        spinDuration="5s"
-      >
-        <Image
-          src={StarIcon}
-          className="size-[30px]"
-          alt="Person peeking from behind a laptop"
-        />
-      </HeroOrbit>
-      <HeroOrbit
-        size={700}
-        rotate={-14}
-        shouldOrbit
-        orbitDuration="110s"
-        shouldSpin
-        spinDuration="5s"
-      >
-        <Image
-          src={StarIcon}
-          className="size-[40px]"
-          alt="Person peeking from behind a laptop"
-        />
-      </HeroOrbit>
-      <HeroOrbit
-        size={715}
+        size={550}
         rotate={-14}
         shouldOrbit
         orbitDuration="60s"
@@ -210,11 +71,237 @@ const Banner = () => {
       >
         <Image
           src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={550}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="40s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      {/* small middle ring */}
+      <HeroOrbit
+        size={720}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="20s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={720}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="80s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
           className="size-[60px]"
           alt="Person peeking from behind a laptop"
         />
       </HeroOrbit>
-
+      <HeroOrbit
+        size={720}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="15s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[80px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={720}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="60s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={720}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="40s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      {/* small middle ring */}
+      <HeroOrbit
+        size={850}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="20s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={850}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="80s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[60px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={850}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="15s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[80px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={850}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="60s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={850}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="40s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      {/* small middle ring */}
+      <HeroOrbit
+        size={1000}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="20s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={1000}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="80s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[60px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={1000}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="15s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[80px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={1000}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="60s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={1000}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="40s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
       <div className="flex flex-col items-center">
         <Image
           src={momojiImage}
