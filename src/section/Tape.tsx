@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import StarIcon from "@/assets/icons/star-icon.svg";
+import StarIcon from "@/component/svgs/star-icon.svg";
 
 const words = [
   "HTML",

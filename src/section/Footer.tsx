@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
+import ArrowUpRightIcon from "@/component/svgs/arrow-up-right.svg";
 
 import { footerLinks } from "@/data/data";
 

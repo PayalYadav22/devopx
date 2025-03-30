@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import StarIcon from "@/assets/icons/star.svg";
+import StarIcon from "@/component/svgs/star.svg";
 import { twMerge } from "tailwind-merge";
 
 const CardHeader = ({

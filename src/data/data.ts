@@ -8,12 +8,12 @@ import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
 import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
 import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
 
-import HtmlIcon from "@/assets/icons/html5.svg";
-import CssIcon from "@/assets/icons/css3.svg";
-import JavaScriptIcon from "@/assets/icons/square-js.svg";
-import ReactIcon from "@/assets/icons/react.svg";
-import Crome from "@/assets/icons/chrome.svg";
-import GithubIcon from "@/assets/icons/github.svg";
+import HtmlIcon from "@/component/svgs/html5.svg";
+import CssIcon from "@/component/svgs/css3.svg";
+import JavaScriptIcon from "@/component/svgs/square-js.svg";
+import ReactIcon from "@/component/svgs/react.svg";
+import Crome from "@/component/svgs/chrome.svg";
+import GithubIcon from "@/component/svgs/github.svg";
 
 export const portfolioProjects = [
   {

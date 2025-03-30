@@ -2,8 +2,8 @@
 
 import HeroOrbit from "@/component/HeroOrbit";
 import momojiImage from "@/assets/images/computer.png";
-import ArrowDown from "@/assets/icons/arrow-down.svg";
-import StarIcon from "@/assets/icons/star.svg";
+import ArrowDown from "@/component/svgs/arrow-down.svg";
+import StarIcon from "@/component/svgs/star.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import Image from "next/image";
 
@@ -22,7 +22,7 @@ const Banner = () => {
         size={600}
         rotate={-14}
         shouldOrbit
-        orbitDuration="150s"
+        orbitDuration="20s"
         shouldSpin
         spinDuration="5s"
       >
@@ -33,12 +33,40 @@ const Banner = () => {
         />
       </HeroOrbit>
       <HeroOrbit
-        size={600}
+        size={540}
         rotate={-14}
         shouldOrbit
-        orbitDuration="160s"
+        orbitDuration="15s"
         shouldSpin
         spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[50px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={550}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="25s"
+        shouldSpin
+        spinDuration="5s"
+      >
+        <Image
+          src={StarIcon}
+          className="size-[70px]"
+          alt="Person peeking from behind a laptop"
+        />
+      </HeroOrbit>
+      <HeroOrbit
+        size={540}
+        rotate={-14}
+        shouldOrbit
+        orbitDuration="30s"
+        shouldSpin
+        spinDuration="3s"
       >
         <Image
           src={StarIcon}
@@ -47,7 +75,7 @@ const Banner = () => {
         />
       </HeroOrbit>
       <HeroOrbit
-        size={550}
+        size={700}
         rotate={-14}
         shouldOrbit
         orbitDuration="100s"

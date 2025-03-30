@@ -4,8 +4,8 @@ import Image from "next/image";
 import Header from "@/component/Header";
 import Card from "@/component/card/Card";
 
-import CheckCircleIcon from "@/assets/icons/check-circle.svg";
-import ButtonArrow from "@/assets/icons/button-arrow.svg";
+import CheckCircleIcon from "@/component/svgs/check-circle.svg";
+import ButtonArrow from "@/component/svgs/button-arrow.svg";
 
 import { portfolioProjects } from "@/data/data";
 
